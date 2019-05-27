@@ -16,7 +16,7 @@ typedef PtrToNode Position;
 typedef char ElementType;
 
 List MakeEmpty(List L);
-int IsEmpty(List L);
+int IsEmptyList(List L);
 int IsLast(Position P, List L);
 Position Find(ElementType X, List L);
 void Delete(ElementType X, List L);

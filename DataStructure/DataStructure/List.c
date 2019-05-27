@@ -20,7 +20,7 @@ List MakeEmpty(List L) {
     return L;
 }
 
-int IsEmpty(List L) {
+int IsEmptyList(List L) {
     return L->Next == NULL;
 }
 
