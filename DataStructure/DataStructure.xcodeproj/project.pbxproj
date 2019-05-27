@@ -10,6 +10,7 @@
 		4D0F4266229BB53E00FD072C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F4265229BB53E00FD072C /* main.c */; };
 		4D0F426E229BB66700FD072C /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F426D229BB66700FD072C /* List.c */; };
 		4D0F4271229BD26B00FD072C /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F4270229BD26B00FD072C /* Stack.c */; };
+		4D0F4274229BE79000FD072C /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F4273229BE79000FD072C /* Queue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		4D0F426D229BB66700FD072C /* List.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = List.c; sourceTree = "<group>"; };
 		4D0F426F229BD26B00FD072C /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		4D0F4270229BD26B00FD072C /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
+		4D0F4272229BE79000FD072C /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		4D0F4273229BE79000FD072C /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				4D0F426D229BB66700FD072C /* List.c */,
 				4D0F426F229BD26B00FD072C /* Stack.h */,
 				4D0F4270229BD26B00FD072C /* Stack.c */,
+				4D0F4272229BE79000FD072C /* Queue.h */,
+				4D0F4273229BE79000FD072C /* Queue.c */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0F4271229BD26B00FD072C /* Stack.c in Sources */,
+				4D0F4274229BE79000FD072C /* Queue.c in Sources */,
 				4D0F4266229BB53E00FD072C /* main.c in Sources */,
 				4D0F426E229BB66700FD072C /* List.c in Sources */,
 			);
