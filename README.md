@@ -5,3 +5,5 @@
 ## Stack
 
 ## Queue
+
+## Binary Search Tree

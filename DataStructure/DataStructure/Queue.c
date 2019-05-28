@@ -42,3 +42,7 @@ void Enqueue(ElementType X, Queue Q) {
         Q->Array[Q->Rear] = X;
     }
 }
+
+int IsFullQueue(Queue Q) {
+    return Q->Rear == Q->Size;
+}
