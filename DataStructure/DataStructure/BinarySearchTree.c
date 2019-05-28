@@ -71,9 +71,9 @@ SearchTree DeleteTreeNode(ElementType X, SearchTree T) {
     if (T == NULL)
         printf("Element not found\n");
     else if (X < T->Element)
-        T->Left = Delete(X, T->Left);
+        T->Left = DeleteTreeNode(X, T->Left);
     else if (X > T->Element)
-        T->Right = Delete(X, T->Right);
+        T->Right = DeleteTreeNode(X, T->Right);
     else if (T->Left && T->Right) {
         TmpCell = FindMin(T->Right);
         T->Element = TmpCell->Element;
