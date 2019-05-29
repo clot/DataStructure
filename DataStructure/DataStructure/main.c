@@ -7,9 +7,13 @@
 //
 
 #include <stdio.h>
+#include "HashTable.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    // test NextPrime func
+    int result = NextPrime(1);
+    printf("result: %d\n", result);
+    
     return 0;
 }
