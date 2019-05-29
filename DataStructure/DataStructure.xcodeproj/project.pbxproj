@@ -14,6 +14,7 @@
 		4D0F4277229CCE6D00FD072C /* BinarySearchTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F4276229CCE6D00FD072C /* BinarySearchTree.c */; };
 		4D0F427A229D269E00FD072C /* HashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F4279229D269E00FD072C /* HashTable.c */; };
 		4D0F427D229E39CA00FD072C /* Heap.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F427C229E39C900FD072C /* Heap.c */; };
+		4D0F4280229E6F3E00FD072C /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F427F229E6F3E00FD072C /* Sort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		4D0F4279229D269E00FD072C /* HashTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HashTable.c; sourceTree = "<group>"; };
 		4D0F427B229E39C900FD072C /* Heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
 		4D0F427C229E39C900FD072C /* Heap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Heap.c; sourceTree = "<group>"; };
+		4D0F427E229E6F3E00FD072C /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		4D0F427F229E6F3E00FD072C /* Sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				4D0F4279229D269E00FD072C /* HashTable.c */,
 				4D0F427B229E39C900FD072C /* Heap.h */,
 				4D0F427C229E39C900FD072C /* Heap.c */,
+				4D0F427E229E6F3E00FD072C /* Sort.h */,
+				4D0F427F229E6F3E00FD072C /* Sort.c */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 				4D0F4274229BE79000FD072C /* Queue.c in Sources */,
 				4D0F4266229BB53E00FD072C /* main.c in Sources */,
 				4D0F426E229BB66700FD072C /* List.c in Sources */,
+				4D0F4280229E6F3E00FD072C /* Sort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
