@@ -9,6 +9,7 @@
 #include "HashTable.h"
 
 #define MinTableSize 0
+#define NOSPACE printf("Out of space\n");
 
 struct ListNode {
     ElementType Element;
@@ -56,18 +57,18 @@ HashTable InitializeTable(int TableSize) {
     
     H = malloc(sizeof(struct HashTbl));
     if (H == NULL)
-        printf("Out of space\n");
+        NOSPACE
     
     H->TableSize = NextPrime(TableSize);
     
     H->TheLists = malloc(sizeof(List) * H->TableSize);
     if (H->TheLists == NULL)
-        printf("Out of space\n");
+        NOSPACE
     
     for (i = 0; i < H->TableSize; i++) {
         H->TheLists[i] = malloc(sizeof(struct ListNode));
         if (H->TheLists[i] == NULL)
-            printf("Out of space\n");
+            NOSPACE
         else
             H->TheLists[i]->Next = NULL;
     }
