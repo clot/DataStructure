@@ -56,21 +56,17 @@ HashTable InitializeTable(int TableSize) {
     }
     
     H = malloc(sizeof(struct HashTbl));
-    if (H == NULL)
-        NOSPACE
+    if (H == NULL) NOSPACE
     
     H->TableSize = NextPrime(TableSize);
     
     H->TheLists = malloc(sizeof(List) * H->TableSize);
-    if (H->TheLists == NULL)
-        NOSPACE
+    if (H->TheLists == NULL) NOSPACE
     
     for (i = 0; i < H->TableSize; i++) {
         H->TheLists[i] = malloc(sizeof(struct ListNode));
-        if (H->TheLists[i] == NULL)
-            NOSPACE
-        else
-            H->TheLists[i]->Next = NULL;
+        if (H->TheLists[i] == NULL) NOSPACE
+        else H->TheLists[i]->Next = NULL;
     }
     return H;
 }
